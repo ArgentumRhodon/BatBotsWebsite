@@ -3,27 +3,27 @@ const header = document.querySelector("header");
 const navbar = `
 <nav>
   <div class="flex justify-between items-center p-4 bg-black">
-    <a href="/src/index.html" class="nav-link">Bat Bots</a>
+    <a href="/index.html" class="nav-link">Bat Bots</a>
     <!-- Desktop navbar - Opens at md breakpoint -->
     <ul class="hidden md:flex gap-4">
       <li>
-        <a href="/src/pages/devlog.html" class="nav-link">Devlog</a>
+        <a href="/pages/devlog.html" class="nav-link">Devlog</a>
       </li>
       <li>
-        <a href="/src/pages/presskit.html" class="nav-link">Press Kit</a>
+        <a href="/pages/presskit.html" class="nav-link">Press Kit</a>
       </li>
     </ul>
     <button id="burger" class="md:hidden">
-      <img src="/src/images/burger-menu.png" alt="" class="max-w-[35px]" />
+      <img src="/images/burger-menu.png" alt="" class="max-w-[35px]" />
     </button>
   </div>
   <!-- Hidden mobile nav -->
   <ul id="mobile-nav" class="hidden flex-col bg-black md:hidden">
     <li>
-      <a href="/src/pages/devlog.html" class="nav-link">Devlog</a>
+      <a href="/pages/devlog.html" class="nav-link">Devlog</a>
     </li>
     <li>
-      <a href="/src/pages/presskit.html" class="nav-link">Press Kit</a>
+      <a href="/pages/presskit.html" class="nav-link">Press Kit</a>
     </li>
   </ul>
 </nav>
