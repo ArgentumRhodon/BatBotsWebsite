@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Default styles*/
+  body {
+    @apply bg-gray-800 text-white;
+  }
+
+  main {
+    @apply p-4;
+  }
+
+  a {
+    @apply text-lg md:text-base text-blue-600 hover:underline visited:text-purple-500;
+  }
+
+  .nav-link {
+    @apply text-white visited:text-white;
+  }
+
+  #mobile-nav li {
+    @apply p-4;
+  }
+}
