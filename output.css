@@ -486,8 +486,19 @@ a:hover {
   color: rgb(255 255 255 );
 }
 
-#mobile-nav li {
+#mobile-nav li a {
+  display: block;
   padding: 1rem;
+}
+
+#mobile-nav li a:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+#mobile-nav li a:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
 *, ::before, ::after {
@@ -882,8 +893,8 @@ a:hover {
   display: none;
 }
 
-.h-1\/3 {
-  height: 33.333333%;
+.h-2\/5 {
+  height: 40%;
 }
 
 .h-full {
@@ -892,14 +903,6 @@ a:hover {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-2\/5 {
-  height: 40%;
-}
-
-.h-1\/4 {
-  height: 25%;
 }
 
 .min-h-full {
@@ -2625,14 +2628,6 @@ a:hover {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-1\/2 {
-    height: 50%;
-  }
-
-  .md\:h-2\/5 {
-    height: 40%;
   }
 }
 
