@@ -803,6 +803,10 @@ body {
   margin-top: 1.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
