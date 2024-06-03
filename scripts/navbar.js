@@ -2,7 +2,7 @@
 const header = document.querySelector("header");
 const navbar = `
 <nav>
-  <div class="flex justify-between items-center p-4 bg-black">
+  <div class="flex justify-between items-center p-4 bg-gray-800">
     <a href="./index.html" class="nav-link">Home</a>
     <!-- Desktop navbar - Opens at md breakpoint -->
     <ul class="hidden md:flex gap-4">
@@ -18,7 +18,7 @@ const navbar = `
     </button>
   </div>
   <!-- Hidden mobile nav -->
-  <ul id="mobile-nav" class="hidden flex-col bg-black md:hidden">
+  <ul id="mobile-nav" class="hidden flex-col bg-gray-800 md:hidden">
     <li>
       <a href="./devlog.html" class="nav-link">Devlog</a>
     </li>

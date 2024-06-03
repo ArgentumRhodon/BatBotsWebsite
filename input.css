@@ -8,12 +8,8 @@
     @apply bg-black text-white;
   }
 
-  a {
-    @apply text-lg md:text-base text-blue-600 hover:underline visited:text-purple-500;
-  }
-
   .nav-link {
-    @apply text-white visited:text-white;
+    @apply text-white visited:text-white hover:underline;
   }
 
   #mobile-nav li a {
