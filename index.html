@@ -9,7 +9,8 @@
   </head>
   <body>
     <header></header>
-    <main class="h-screen">
+    <div class="h-screen">
+      <!-- Page Hero -->
       <section class="relative h-2/5 flex flex-col items-center justify-center">
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
           <video
@@ -27,8 +28,11 @@
           <h3 class="font-light text-3xl">by Team Throwback</h3>
         </div>
       </section>
-      <section class="px-6 pb-6 pt-12 mx-auto space-y-8 max-w-[1250px]">
+
+      <!-- Page Content -->
+      <main class="px-6 pb-6 pt-12 mx-auto space-y-8 max-w-[1250px]">
         <h1 class="mb-12 text-3xl text-center">[Tagline]</h1>
+        <!-- About -->
         <div class="flex flex-col md:flex-row gap-8 items-center">
           <img src="https://placehold.co/600x400" alt="" class="md:w-1/2" />
 
@@ -82,7 +86,20 @@
             </p>
           </section>
         </div>
-      </section>
-    </main>
+
+        <!-- Trailer -->
+        <section class="flex justify-center">
+          <iframe
+            class="w-full aspect-video"
+            src="https://www.youtube.com/embed/NpEaa2P7qZI?si=KE3OmsOT4wQ365Yq"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
