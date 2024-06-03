@@ -8,10 +8,6 @@
     @apply bg-gray-800 text-white;
   }
 
-  main {
-    @apply p-4;
-  }
-
   a {
     @apply text-lg md:text-base text-blue-600 hover:underline visited:text-purple-500;
   }

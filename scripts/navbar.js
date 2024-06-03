@@ -3,7 +3,7 @@ const header = document.querySelector("header");
 const navbar = `
 <nav>
   <div class="flex justify-between items-center p-4 bg-black">
-    <a href="./index.html" class="nav-link">Bat Bots</a>
+    <a href="./index.html" class="nav-link">Home</a>
     <!-- Desktop navbar - Opens at md breakpoint -->
     <ul class="hidden md:flex gap-4">
       <li>
