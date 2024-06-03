@@ -16,7 +16,7 @@
     @apply text-white visited:text-white;
   }
 
-  #mobile-nav li {
-    @apply p-4;
+  #mobile-nav li a {
+    @apply p-4 hover:bg-gray-900 active:bg-gray-900 block;
   }
 }
