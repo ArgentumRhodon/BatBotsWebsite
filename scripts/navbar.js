@@ -19,10 +19,10 @@ const navbar = `
   </div>
   <!-- Hidden mobile nav -->
   <ul id="mobile-nav" class="hidden flex-col bg-gray-800 md:hidden">
-    <li>
+    <li class="border-t-2 border-gray-400">
       <a href="./devlog.html" class="nav-link">Devlog</a>
     </li>
-    <li>
+    <li class="border-t-2 border-gray-400">
       <a href="./presskit.html" class="nav-link">Press Kit</a>
     </li>
   </ul>
