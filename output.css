@@ -989,6 +989,18 @@ body {
   max-width: 35px;
 }
 
+.max-w-\[1250px\] {
+  max-width: 1250px;
+}
+
+.max-w-\[1500px\] {
+  max-width: 1500px;
+}
+
+.max-w-\[1400px\] {
+  max-width: 1400px;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
