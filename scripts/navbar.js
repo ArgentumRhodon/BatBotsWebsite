@@ -2,10 +2,18 @@
 const header = document.querySelector("header");
 const navbar = `
 <nav>
-  <div class="flex justify-between items-center p-4 bg-gray-800">
-    <a href="./index.html" class="nav-link">Home</a>
+  <div
+    class="hidden md:flex justify-between items-center p-4 bg-gray-800"
+  >
+    <a href="./index.html">
+      <img src="./images/title.png" alt="" class="max-h-[25px]" />
+    </a>
+
     <!-- Desktop navbar - Opens at md breakpoint -->
-    <ul class="hidden md:flex gap-4">
+    <ul class="flex gap-4">
+      <li>
+        <a href="./index.html" class="nav-link">Home</a>
+      </li>
       <li>
         <a href="./devlog.html" class="nav-link">Devlog</a>
       </li>
@@ -13,19 +21,34 @@ const navbar = `
         <a href="./presskit.html" class="nav-link">Press Kit</a>
       </li>
     </ul>
-    <button id="burger" class="md:hidden">
-      <img src="./images/burger-menu.png" alt="" class="max-w-[35px]" />
-    </button>
   </div>
-  <!-- Hidden mobile nav -->
-  <ul id="mobile-nav" class="hidden flex-col bg-gray-800 md:hidden">
-    <li class="border-t-2 border-gray-400">
-      <a href="./devlog.html" class="nav-link">Devlog</a>
-    </li>
-    <li class="border-t-2 border-gray-400">
-      <a href="./presskit.html" class="nav-link">Press Kit</a>
-    </li>
-  </ul>
+  <div class="md:hidden fixed top-0 right-0 left-0 z-30">
+    <div
+      class="relative flex justify-between items-center z-20 p-4 bg-gray-800"
+    >
+      <a href="./index.html">
+        <img src="./images/title.png" alt="" class="max-h-[35px]" />
+      </a>
+      <button id="burger" class="bg-gray-900 p-1 rounded-lg">
+        <img src="./images/burger-menu.png" alt="" class="max-w-[35px]" />
+      </button>
+    </div>
+    <!-- Hidden mobile nav -->
+    <ul
+      id="mobile-nav"
+      class="relative hidden flex-col z-10 bg-gray-800 text-xl"
+    >
+      <li class="border-t-[1px] border-gray-400">
+        <a href="./index.html" class="nav-link">Home</a>
+      </li>
+      <li class="border-t-[1px] border-gray-400">
+        <a href="./devlog.html" class="nav-link">Devlog</a>
+      </li>
+      <li class="border-t-[1px] border-gray-400">
+        <a href="./presskit.html" class="nav-link">Press Kit</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 `;
 if (header) {
@@ -40,4 +63,5 @@ const mobileNavMenu = document.getElementById("mobile-nav");
 burgerButton.addEventListener("click", () => {
   mobileNavMenu.classList.toggle("hidden");
   mobileNavMenu.classList.toggle("flex");
+  mobileNavMenu.classList.toggle("dropdown");
 });

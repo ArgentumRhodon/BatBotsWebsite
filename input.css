@@ -15,4 +15,18 @@
   #mobile-nav li a {
     @apply p-4 hover:bg-gray-900 active:bg-gray-900 block;
   }
+
+  .dropdown {
+    animation-name: mobile-nav-keys;
+    animation-duration: 200ms;
+  }
+
+  @keyframes mobile-nav-keys {
+    0% {
+      margin-top: -200px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
 }
