@@ -5,18 +5,28 @@
 @layer base {
   /* Default styles*/
   body {
-    @apply bg-gray-800 text-white;
-  }
-
-  a {
-    @apply text-lg md:text-base text-blue-600 hover:underline visited:text-purple-500;
+    @apply bg-black text-white;
   }
 
   .nav-link {
-    @apply text-white visited:text-white;
+    @apply text-white visited:text-white hover:underline;
   }
 
   #mobile-nav li a {
     @apply p-4 hover:bg-gray-900 active:bg-gray-900 block;
+  }
+
+  .dropdown {
+    animation-name: mobile-nav-keys;
+    animation-duration: 200ms;
+  }
+
+  @keyframes mobile-nav-keys {
+    0% {
+      margin-top: -200px;
+    }
+    100% {
+      margin-top: 0;
+    }
   }
 }

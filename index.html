@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <script type="module" src="./scripts/navbar.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Bat Bots</title>
   </head>
   <body>
     <header></header>
-    <main class="h-screen">
-      <section class="relative h-2/5 flex flex-col items-center justify-center">
+    <div class="h-screen">
+      <!-- Page Hero -->
+      <section
+        class="relative h-2/5 flex flex-col items-center justify-center mt-[67px] md:mt-0"
+      >
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
           <video
             class="min-w-full min-h-full absolute object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 filter brightness-50"
@@ -27,6 +37,143 @@
           <h3 class="font-light text-3xl">by Team Throwback</h3>
         </div>
       </section>
-    </main>
+
+      <!-- Page Content -->
+      <main class="px-6 pb-6 pt-12 mx-auto max-w-[1400px]">
+        <h1 class="mb-12 text-3xl text-center">[Tagline]</h1>
+        <!-- About -->
+        <div
+          class="flex flex-col md:flex-row gap-8 md:gap-16 items-center mb-12"
+        >
+          <figure class="md:w-1/2">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+          </figure>
+
+          <section class="space-y-4 md:w-1/2">
+            <h1 class="text-2xl mb-6">Section Title</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              facilis eum quisquam molestias accusamus id voluptatibus, adipisci
+              ab, expedita enim voluptatem fugiat ipsam doloremque temporibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              suscipit, tempore corrupti nostrum qui commodi aut at distinctio,
+              doloribus beatae non, culpa blanditiis molestiae odit!
+            </p>
+          </section>
+        </div>
+
+        <div
+          class="flex-col-reverse md:flex-row flex gap-8 md:gap-16 items-center mb-12"
+        >
+          <section class="space-y-4 md:w-1/2">
+            <h1 class="text-2xl mb-6">Section Title</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              facilis eum quisquam molestias accusamus id voluptatibus, adipisci
+              ab, expedita enim voluptatem fugiat ipsam doloremque temporibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              suscipit, tempore corrupti nostrum qui commodi aut at distinctio,
+              doloribus beatae non, culpa blanditiis molestiae odit!
+            </p>
+          </section>
+
+          <figure class="md:w-1/2">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+          </figure>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+          <figure class="md:w-1/2">
+            <img src="https://placehold.co/600x400" alt="" class="w-full" />
+          </figure>
+
+          <section class="space-y-4 md:w-1/2">
+            <h1 class="text-2xl mb-6">Section Title</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              facilis eum quisquam molestias accusamus id voluptatibus, adipisci
+              ab, expedita enim voluptatem fugiat ipsam doloremque temporibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              suscipit, tempore corrupti nostrum qui commodi aut at distinctio,
+              doloribus beatae non, culpa blanditiis molestiae odit!
+            </p>
+          </section>
+        </div>
+
+        <!-- Trailer -->
+        <section class="flex justify-center my-16">
+          <iframe
+            class="w-full aspect-video"
+            src="https://www.youtube.com/embed/NpEaa2P7qZI?si=KE3OmsOT4wQ365Yq"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <!-- Supported Platforms -->
+        <div class="mb-12">
+          <div class="relative flex items-center">
+            <div class="flex-grow border-t border-gray-400"></div>
+            <span class="flex-shrink mx-4 text-gray-400">Coming To</span>
+            <div class="flex-grow border-t border-gray-400"></div>
+          </div>
+
+          <!-- These should eventually be links -->
+          <section class="grid grid-cols-2 gap-12 p-4">
+            <img src="./images/steam_logo.png" alt="" />
+            <img src="./images/switch_logo.webp" alt="" />
+            <!-- <img src="./images/android_logo.png" alt="" /> -->
+          </section>
+
+          <div class="relative flex items-center">
+            <div class="flex-grow border-t border-gray-400"></div>
+            <div class="flex-grow border-t border-gray-400"></div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-gray-800 p-6 text-center">
+        <div class="container flex flex-col justify-center mx-auto">
+          <h1 class="pb-6 text-3xl">Team Throwback</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo labore
+            rerum eaque reprehenderit maxime pariatur sapiente iste aliquid, ad
+            numquam placeat quae, soluta nisi, amet necessitatibus possimus sed!
+            Corrupti nam illum eum! Totam beatae earum tempora quos quia quae
+            doloribus nostrum corrupti. Sequi dolorum amet ullam repudiandae
+            incidunt vel ea exercitationem molestiae non praesentium atque ab ad
+            vitae id vero dolore labore, illum eos nam! Hic illum quos corrupti,
+            qui nihil eligendi quis amet nisi?
+          </p>
+        </div>
+        <p class="mt-6 text-3xl space-x-4">
+          <a
+            href="https://www.facebook.com/profile.php?id=61560147347488"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+          </a>
+          <a href="https://www.instagram.com/batbotsofficial/" target="_blank">
+            <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCISGDklDhmvr9vCYj7oItAg"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube" style="color: #ffffff"></i>
+          </a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
