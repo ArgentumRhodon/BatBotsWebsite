@@ -15,7 +15,7 @@ const navbar = `
         <a href="./index.html" class="nav-link">Home</a>
       </li>
       <li>
-        <a href="./devlog.html" class="nav-link">Devlog</a>
+        <a href="./changelog.html" class="nav-link">Changelog</a>
       </li>
       <li>
         <a href="./presskit.html" class="nav-link">Press Kit</a>
