@@ -3,7 +3,7 @@ const header = document.querySelector("header");
 const navbar = `
 <nav>
   <div
-    class="hidden md:flex justify-between items-center p-4 bg-gray-800"
+    class="hidden fixed top-0 right-0 left-0 z-30 md:flex justify-between items-center p-4 bg-gray-800"
   >
     <a href="./index.html">
       <img src="./images/title.png" alt="" class="max-h-[25px]" />
