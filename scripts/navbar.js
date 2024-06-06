@@ -42,7 +42,7 @@ const navbar = `
         <a href="./index.html" class="nav-link">Home</a>
       </li>
       <li class="border-t-[1px] border-gray-400">
-        <a href="./devlog.html" class="nav-link">Devlog</a>
+        <a href="./changelog.html" class="nav-link">Changelog</a>
       </li>
       <li class="border-t-[1px] border-gray-400">
         <a href="./presskit.html" class="nav-link">Press Kit</a>
