@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "A small website for Team Throwback's game Bat Bots",
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "tailwindcss": "^3.4.3"
   }
 }
