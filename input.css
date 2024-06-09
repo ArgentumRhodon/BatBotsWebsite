@@ -16,6 +16,10 @@
     @apply p-4 hover:bg-gray-900 active:bg-gray-900 block;
   }
 
+  .banner-link {
+    @apply block text-black p-4 bg-gradient-to-b from-[#ffe259] to-[#ffa751] border-2 border-[#ff6200] font-system-ui uppercase relative shadow-retro transition-all hover:shadow-none hover:top-[10px] text-center;
+  }
+
   .dropdown {
     animation-name: mobile-nav-keys;
     animation-duration: 200ms;
