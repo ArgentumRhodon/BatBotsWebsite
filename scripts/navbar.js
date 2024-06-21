@@ -6,7 +6,7 @@ const navbar = `
     class="hidden fixed top-0 right-0 left-0 z-30 md:flex justify-between items-center p-4 bg-gray-800"
   >
     <a href="./index.html">
-      <img src="./images/title.png" alt="" class="max-h-[25px]" />
+      <img src="./images/title_white_2x.png" alt="" class="max-h-[25px]" />
     </a>
 
     <!-- Desktop navbar - Opens at md breakpoint -->
@@ -27,7 +27,7 @@ const navbar = `
       class="relative flex justify-between items-center z-20 p-4 bg-gray-800"
     >
       <a href="./index.html">
-        <img src="./images/title.png" alt="" class="max-h-[35px]" />
+        <img src="./images/title_white_2x.png" alt="" class="max-h-[35px]" />
       </a>
       <button id="burger" class="bg-gray-900 p-1 rounded-lg">
         <img src="./images/burger-menu.png" alt="" class="max-w-[35px]" />

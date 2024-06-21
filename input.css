@@ -5,7 +5,7 @@
 @layer base {
   /* Default styles*/
   body {
-    @apply bg-black text-white;
+    @apply bg-black text-white bg-[url("./images/background.png")];
   }
 
   .nav-link {
@@ -14,6 +14,10 @@
 
   #mobile-nav li a {
     @apply p-4 hover:bg-gray-900 active:bg-gray-900 block;
+  }
+
+  .banner-link {
+    @apply block text-black p-4 bg-gradient-to-b from-[#ffe259] to-[#ffa751] hover:to-[#e38441] hover:from-[#ffcf7b] border-2 border-[#ff6200] font-system-ui uppercase relative shadow-retro transition-all active:shadow-none active:top-[10px] text-center;
   }
 
   .dropdown {
