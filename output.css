@@ -568,24 +568,9 @@ body {
 }
 
 .dropdown {
-  animation-name: mobile-nav-keys;
-  animation-duration: 200ms;
-}
-
-.dropdown-1 {
-  animation: growDown 400ms ease-in-out;
+  animation: growDown 250ms ease-in-out;
   transform-origin: top center;
   scroll-margin-top: 100px;
-}
-
-@keyframes mobile-nav-keys {
-  0% {
-    margin-top: -200px;
-  }
-
-  100% {
-    margin-top: 0;
-  }
 }
 
 @keyframes growDown {

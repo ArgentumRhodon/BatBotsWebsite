@@ -157,7 +157,7 @@ const teamInfo = document.getElementById("team-info");
 teamInfoToggle.addEventListener("click", () => {
   teamInfo.classList.toggle("hidden");
   teamInfo.classList.toggle("grid");
-  teamInfo.classList.toggle("dropdown-1");
+  teamInfo.classList.toggle("dropdown");
 
   teamInfo.scrollIntoView();
 });
