@@ -13,18 +13,114 @@ document.head.innerHTML += fontAwesomeLink;
 // Footer Content
 const footer = document.querySelector("footer");
 const footerContent = `
-<div class="bg-gray-800 p-6 text-center">
-  <div class="container flex flex-col justify-center mx-auto">
-    <h1 class="pb-6 text-3xl">Team Throwback</h1>
-    <p class="max-w-[80ch] mx-auto">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-      placeat repellat culpa deserunt dignissimos natus nostrum quo
-      sequi ad nesciunt ipsum molestiae ipsam eveniet esse, cumque
-      veniam labore officia totam porro similique laudantium aliquam
-      provident nulla enim! Explicabo unde incidunt officia. Debitis
-      commodi qui amet itaque impedit a veritatis similique?
-    </p>
+<div
+  class="bg-gray-700 flex flex-col justify-center items-center w-full gap-6 text-center p-6"
+>
+  <h1 class="text-3xl">Team Throwback</h1>
+  <p class="max-w-[80ch] mx-auto">
+    Hey there! This is Team Throwback. We are a team of student
+    developers from Rochester Institute of Technology's graduate Game
+    Design and Development program. We've dedicated the summer of 2024
+    to working full-time on Bat Bots and its related media, so we hope
+    to see all sorts of people enjoy our game.
+  </p>
+  <button
+    id="team-info-toggle"
+    class="btn flex flex-col sm:flex-row items-center gap-4"
+  >
+    More about Team Throwback
+    <i class="fa-solid fa-square-caret-down fa-xl"></i>
+  </button>
+
+  <div
+    id="team-info"
+    class="mt-9 hidden grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-fit gap-6"
+  >
+    <section class="w-96 max-w-full">
+      <img
+        src="./images/Lucas.jpg"
+        alt=""
+        class="rounded-lg mx-auto max-w-[200px]"
+      />
+      <h1 class="text-xl my-4">Lucas Corey</h1>
+      <p>
+        Lucas is responsible for building this website and producing
+        many of the pixel-art assets. His previous work includes
+        technical architecture and gameplay programming.
+      </p>
+    </section>
+
+    <section class="w-96 max-w-full">
+      <img
+        src="https://placehold.co/200x200"
+        alt=""
+        class="rounded-lg mx-auto"
+      />
+      <h1 class="text-xl my-4">Robert Reddick</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+        eaque enim laboriosam dolor in saepe minima nam itaque facere
+        corrupti.
+      </p>
+    </section>
+
+    <section class="w-96 max-w-full">
+      <img
+        src="https://placehold.co/200x200"
+        alt=""
+        class="rounded-lg mx-auto"
+      />
+      <h1 class="text-xl my-4">Eduardo Escudero</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+        eaque enim laboriosam dolor in saepe minima nam itaque facere
+        corrupti.
+      </p>
+    </section>
+
+    <section class="w-96 max-w-full">
+      <img
+        src="https://placehold.co/200x200"
+        alt=""
+        class="rounded-lg mx-auto"
+      />
+      <h1 class="text-xl my-4">Kevin Insinna</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+        eaque enim laboriosam dolor in saepe minima nam itaque facere
+        corrupti.
+      </p>
+    </section>
+
+    <section class="w-96 max-w-full">
+      <img
+        src="https://placehold.co/200x200"
+        alt=""
+        class="rounded-lg mx-auto"
+      />
+      <h1 class="text-xl my-4">Quinn Poyneer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+        eaque enim laboriosam dolor in saepe minima nam itaque facere
+        corrupti.
+      </p>
+    </section>
+
+    <section class="w-96 max-w-full">
+      <img
+        src="https://placehold.co/200x200"
+        alt=""
+        class="rounded-lg mx-auto"
+      />
+      <h1 class="text-xl my-4">Richmond "Matt" Hulse</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+        eaque enim laboriosam dolor in saepe minima nam itaque facere
+        corrupti.
+      </p>
+    </section>
   </div>
+
   <p class="mt-6 text-3xl space-x-4">
     <a
       href="https://www.facebook.com/profile.php?id=61560147347488"
@@ -55,3 +151,13 @@ if (footerContent) {
     "Attempted to add footer content to page without footer element"
   );
 }
+
+const teamInfoToggle = document.getElementById("team-info-toggle");
+const teamInfo = document.getElementById("team-info");
+teamInfoToggle.addEventListener("click", () => {
+  teamInfo.classList.toggle("hidden");
+  teamInfo.classList.toggle("grid");
+  teamInfo.classList.toggle("dropdown-1");
+
+  teamInfo.scrollIntoView();
+});

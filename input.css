@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* Default styles*/
   body {
     @apply bg-black text-white bg-[url("./images/background.png")];
@@ -20,9 +24,19 @@
     @apply block text-black p-4 bg-gradient-to-b from-[#ffe259] to-[#ffa751] hover:to-[#e38441] hover:from-[#ffcf7b] border-2 border-[#ff6200] font-system-ui uppercase relative shadow-retro transition-all active:shadow-none active:top-[10px] text-center;
   }
 
+  .btn {
+    @apply text-black p-4 w-fit bg-gradient-to-b from-[#ffe259] to-[#ffa751] hover:to-[#e38441] hover:from-[#ffcf7b] border-2 border-[#ff6200] font-system-ui uppercase relative shadow-retro transition-all active:shadow-none active:top-[10px] text-center;
+  }
+
   .dropdown {
     animation-name: mobile-nav-keys;
     animation-duration: 200ms;
+  }
+
+  .dropdown-1 {
+    animation: growDown 400ms ease-in-out;
+    transform-origin: top center;
+    scroll-margin-top: 100px;
   }
 
   @keyframes mobile-nav-keys {
@@ -31,6 +45,15 @@
     }
     100% {
       margin-top: 0;
+    }
+  }
+
+  @keyframes growDown {
+    0% {
+      transform: scaleY(0);
+    }
+    100% {
+      transform: scaleY(1);
     }
   }
 }
