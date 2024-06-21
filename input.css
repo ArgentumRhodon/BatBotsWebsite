@@ -5,7 +5,7 @@
 @layer base {
   /* Default styles*/
   body {
-    @apply bg-black text-white bg-[url("/images/background.png")];
+    @apply bg-black text-white bg-[url("./images/background.png")];
   }
 
   .nav-link {
