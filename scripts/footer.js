@@ -92,9 +92,9 @@ const footerContent = `
 
     <section class="w-96 max-w-full">
       <img
-        src="https://placehold.co/200x200"
+        src="./images/Quinn.png"
         alt=""
-        class="rounded-lg mx-auto"
+        class="rounded-lg mx-auto max-w-[200px]"
       />
       <h1 class="text-xl my-4">Quinn Poyneer</h1>
       <p>
