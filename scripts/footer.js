@@ -29,7 +29,6 @@ const footerContent = `
     class="btn flex flex-col sm:flex-row items-center gap-4"
   >
     More about Team Throwback
-    <i class="fa-solid fa-square-caret-down fa-xl"></i>
   </button>
 
   <div
