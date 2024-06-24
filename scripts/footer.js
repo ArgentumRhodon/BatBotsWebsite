@@ -51,43 +51,42 @@ const footerContent = `
 
     <section class="w-96 max-w-full">
       <img
-        src="https://placehold.co/200x200"
+        src="./images/Rob.png"
         alt=""
-        class="rounded-lg mx-auto"
+        class="rounded-lg mx-auto max-w-[200px]"
       />
       <h1 class="text-xl my-4">Robert Reddick</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-        eaque enim laboriosam dolor in saepe minima nam itaque facere
-        corrupti.
+        Rob is the AI Programmer and Producer for Bat Bots. He brings
+        the Bat Bots to life and keeps the team's process in order.
       </p>
     </section>
 
     <section class="w-96 max-w-full">
       <img
-        src="https://placehold.co/200x200"
+        src="./images/Ed.png"
         alt=""
-        class="rounded-lg mx-auto"
+        class="rounded-lg mx-auto max-w-[200px]"
       />
       <h1 class="text-xl my-4">Eduardo Escudero</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-        eaque enim laboriosam dolor in saepe minima nam itaque facere
-        corrupti.
+        Ed's our tools and services wizard. He's been helping us 
+        develop the input system for multiplayer, our data pipeline
+        and our debug tools. On occasion he has contributed some 
+        tunes as well.
       </p>
     </section>
 
     <section class="w-96 max-w-full">
       <img
-        src="https://placehold.co/200x200"
+        src="./images/Kevin.png"
         alt=""
-        class="rounded-lg mx-auto"
+        class="rounded-lg mx-auto max-w-[200px]"
       />
       <h1 class="text-xl my-4">Kevin Insinna</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-        eaque enim laboriosam dolor in saepe minima nam itaque facere
-        corrupti.
+        Kevin is the UI Designer and Programmer for Bat Bots. If 
+        the game makes sense, he's doing a pretty good job.
       </p>
     </section>
 
