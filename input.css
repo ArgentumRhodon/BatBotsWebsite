@@ -34,6 +34,10 @@
     scroll-margin-top: 100px;
   }
 
+  .current-link {
+    @apply font-bold underline underline-offset-4;
+  }
+
   @keyframes growDown {
     0% {
       transform: scaleY(0);
