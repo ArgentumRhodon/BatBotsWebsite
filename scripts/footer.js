@@ -98,9 +98,10 @@ const footerContent = `
       />
       <h1 class="text-xl my-4">Quinn Poyneer</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-        eaque enim laboriosam dolor in saepe minima nam itaque facere
-        corrupti.
+        Quinn is our aesthetic coordinator: she made the animations
+        for our beloved bats, as well as the in-game music. When 
+        she's not working on assets, she also helps out with gameplay 
+        design and QA testing.
       </p>
     </section>
 
