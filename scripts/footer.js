@@ -20,9 +20,7 @@ const footerContent = `
   <p class="max-w-[80ch] mx-auto">
     Hey there! This is Team Throwback. We are a team of student
     developers from Rochester Institute of Technology's graduate Game
-    Design and Development program. We've dedicated the summer of 2024
-    to working full-time on Bat Bots and its related media, so we hope
-    to see all sorts of people enjoy our game.
+    Design and Development program.
   </p>
   <button
     id="team-info-toggle"
