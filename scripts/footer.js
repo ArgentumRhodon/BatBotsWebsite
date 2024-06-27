@@ -16,9 +16,9 @@ const footerContent = `
 <div
   class="bg-gray-700 flex flex-col justify-center items-center w-full gap-6 text-center p-6"
 >
-  <h1 class="text-3xl">Team Throwback</h1>
+  <h1 class="text-3xl">Yesteryear Games</h1>
   <p class="max-w-[80ch] mx-auto">
-    Hey there! This is Team Throwback. We are a team of student
+    Hey there! This is Yesteryear Games. We are a team of student
     developers from Rochester Institute of Technology's graduate Game
     Design and Development program.
   </p>
@@ -26,7 +26,7 @@ const footerContent = `
     id="team-info-toggle"
     class="btn flex flex-col sm:flex-row items-center gap-4"
   >
-    More about Team Throwback
+    More about Yesteryear Games
   </button>
 
   <div
@@ -83,8 +83,9 @@ const footerContent = `
       />
       <h1 class="text-xl my-4">Kevin Insinna</h1>
       <p>
-        Kevin is the UI Designer and Programmer for Bat Bots. If 
-        the game makes sense, he's doing a pretty good job.
+        Kevin is the UI Designer and Programmer for Bat Bots. He's 
+        responsible for tying together the entire game experience and 
+        giving players all the information they need to play the game.
       </p>
     </section>
 
