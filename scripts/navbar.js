@@ -65,3 +65,17 @@ burgerButton.addEventListener("click", () => {
   mobileNavMenu.classList.toggle("flex");
   mobileNavMenu.classList.toggle("dropdown");
 });
+
+// Update navbar to show current page
+const pathname = window.location.pathname;
+const navLinks = document.querySelectorAll(".nav-link");
+for (const link of navLinks) {
+  // Home page pathname can be either "/" or "/index.html"
+  if (link.pathname === "/index.html" && pathname === "/") {
+    link.classList.add("current-link");
+  } else if (link.pathname === pathname) {
+    link.classList.add("current-link");
+  } else {
+    link.classList.remove("current-link");
+  }
+}

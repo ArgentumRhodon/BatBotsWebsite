@@ -18,24 +18,25 @@
     <header></header>
     <div class="h-screen">
       <main class="mx-auto p-6 max-w-[1400px] space-y-8 mt-[75px] md:mt-[57px]">
-        <img src="https://placehold.co/1400x300?text=Banner Image" alt="" />
+        <img
+          src="./images/libraryHero-Title.png"
+          alt=""
+          class="hidden md:block"
+        />
+        <img src="./images/libraryHero.png" alt="" class="md:hidden" />
         <div class="grid md:grid-cols-[1fr_2fr] gap-4">
           <aside>
             <h1 class="text-2xl mb-4">Factsheet</h1>
             <dl>
               <dt class="font-bold">Developer:</dt>
-              <dd>Team Throwback</dd>
-              <dd>Based in Rochester, NY</dd>
+              <dd>Yesteryear Games</dd>
+              <dd>Remote Studio</dd>
 
               <dt class="font-bold mt-4">Release Date:</dt>
               <dd>Q3 2024</dd>
 
               <dt class="font-bold mt-4">Platforms:</dt>
               <dd>Steam</dd>
-              <dd>Nintendo Switch</dd>
-
-              <dt class="font-bold mt-4">Website:</dt>
-              <dd><a href="#">[Replace when Ready]</a></dd>
 
               <dt class="font-bold mt-4">Regular Price:</dt>
               <dd>TBD</dd>
@@ -46,33 +47,45 @@
             <section>
               <h1 class="text-2xl mb-4">Description</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                veritatis, asperiores voluptas recusandae velit, obcaecati ea
-                maiores sunt consequuntur quo odio aperiam necessitatibus
-                pariatur itaque deleniti similique eaque laborum, sapiente nam
-                nulla totam animi corporis libero id. Ratione nostrum velit,
-                consequatur aliquam cupiditate earum, quae doloremque deleniti
-                iusto, expedita id.
+                Bat Bots is a light gun shooter simulator. The emotion we’re
+                specifically targeting is nostalgia, so this game is for an
+                audience of people who were in their mid-late teens during the
+                mid 1980s and often played or watched their friends play light
+                gun shooters in arcades. We are striving to make an experience
+                that will take them back to that retro-style arcade in modern
+                times and activate long lost memories of them playing in the
+                arcade as a teenager. Our family-friendly theming allows
+                everyone in the house to enjoy this game together with its
+                multiplayer Competitive and Defensive modes (ESRB Rating
+                Pending).
               </p>
             </section>
-            <section>
+            <section class="space-y-4">
               <h1 class="text-2xl mb-4">History</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi sunt commodi dolores vero corrupti, cupiditate sit
-                nihil dignissimos? Maxime magni quasi temporibus quis? Pariatur
-                similique voluptate culpa alias cum, est nesciunt porro velit.
-                Fugiat reprehenderit explicabo, ut quam accusantium velit non
-                consequuntur asperiores veritatis molestiae tempore magnam
-                molestias nisi iste!
+                Bat Bots is originally a graduate student course project at
+                Rochester Institute of Technology. Since the initial prototyping
+                in the fall semester of 2023 ended, Bat Bots has seen impressive
+                growth.
+              </p>
+              <p>
+                Inspired by our peers' and mentors' reactions to Bat Bots, we've
+                decided to take our game to its fullest potential by investing
+                our entire 2024 summer into it. To prepare for this work, we've
+                welcomed full-time backend dev and gameplay programmer Eduardo
+                Escudero and part-time marketing consultant Matt Hulse to the
+                team.
               </p>
             </section>
             <section>
               <h1 class="text-2xl mb-4">Features</h1>
               <ul class="list-disc pl-8">
-                <li>Feature A</li>
-                <li>Feature B</li>
-                <li>Feature C</li>
+                <li>Retro Aesthetic</li>
+                <li>Arcade Gameplay</li>
+                <li>Classic Singleplayer</li>
+                <li>Competitive Multiplayer</li>
+                <li>Co-operative Multiplayer</li>
+                <li>LANGUAGES: English, Spanish</li>
               </ul>
             </section>
           </article>
@@ -103,103 +116,100 @@
           <h1 class="text-2xl mb-4">Images (Placeholders)</h1>
           <!-- Image Download Link -->
           <aside class="my-4">
-            <a href="#" class="banner-link"
+            <a
+              href="./downloadables/bat_bots_imgs.zip"
+              download="bat_bots_imgs"
+              class="banner-link"
               >Download all screenshots & photos as .zip</a
             >
           </aside>
           <!-- Image Masonry Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-                  alt=""
-                />
-              </div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8"
+          >
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/game_title_screen.png"
+                alt=""
+              />
             </div>
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-                  alt=""
-                />
-              </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/headerCapsule.png"
+                alt=""
+              />
             </div>
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-                  alt=""
-                />
-              </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/libraryHero.png"
+                alt=""
+              />
             </div>
-            <div class="grid gap-4">
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  class="h-auto max-w-full"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-                  alt=""
-                />
-              </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/stun.jpg"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/play_together.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="https://placehold.co/640x360?text=Co-op"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/bat.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/unstable_bat.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/modifier_bat.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/bars.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/escape.png"
+                alt=""
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <img
+                class="w-full h-auto"
+                src="./images/presskit/images/breakout.png"
+                alt=""
+              />
             </div>
           </div>
         </section>
@@ -207,15 +217,29 @@
         <section>
           <h1 class="text-2xl mb-4">Logo & Icon</h1>
           <aside class="my-4">
-            <a href="#" class="banner-link"
+            <a
+              href="./downloadables/bat_bots_logos_icons.zip"
+              download="bat_bots_logos_icons"
+              class="banner-link"
               >Download all logos & icons as .zip</a
             >
           </aside>
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <img src="https://placehold.co/600x400" alt="" />
-            <img src="https://placehold.co/500x500" alt="" />
-            <img src="https://placehold.co/500x375" alt="" />
-            <img src="https://placehold.co/600x400" alt="" />
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+            <img
+              src="./images/presskit/logos-icons/communityIcon.png"
+              alt=""
+              class="mx-auto"
+            />
+            <img
+              src="./images/presskit/logos-icons/title_black_2x.png"
+              alt=""
+              class="bg-white mx-auto"
+            />
+            <img
+              src="./images/presskit/logos-icons/title_white_2x.png"
+              alt=""
+              class="mx-auto"
+            />
           </div>
         </section>
       </main>
