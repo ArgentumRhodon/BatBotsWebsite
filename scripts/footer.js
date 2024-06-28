@@ -106,15 +106,13 @@ const footerContent = `
 
     <section class="w-96 max-w-full">
       <img
-        src="https://placehold.co/200x200"
+        src="./images/Matt.png"
         alt=""
-        class="rounded-lg mx-auto"
+        class="rounded-lg mx-auto max-w-[200px]"
       />
       <h1 class="text-xl my-4">Richmond "Matt" Hulse</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-        eaque enim laboriosam dolor in saepe minima nam itaque facere
-        corrupti.
+        Matt is our marketing and business ops coordinator. He's responsible for researching and formatting market data to inform the project' deployment.
       </p>
     </section>
   </div>
