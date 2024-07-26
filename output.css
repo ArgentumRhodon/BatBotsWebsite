@@ -461,6 +461,7 @@ body {
 }
 
 .nav-link {
+  padding: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -470,6 +471,8 @@ body {
 }
 
 .nav-link:hover {
+  background-color: rgb(255 226 89 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.25;
   text-decoration-line: underline;
 }
 
@@ -574,9 +577,20 @@ body {
 }
 
 .current-link {
-  font-weight: 700;
-  text-decoration-line: underline;
-  text-underline-offset: 4px;
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: #ffe259 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 226 89 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #ffa751 var(--tw-gradient-to-position);
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+}
+
+.current-link:hover {
+  --tw-gradient-from: #ffcf7b var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 207 123 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #e38441 var(--tw-gradient-to-position);
 }
 
 @keyframes growDown {
@@ -1851,10 +1865,6 @@ body {
 
 .h-screen {
   height: 100vh;
-}
-
-.max-h-\[25px\] {
-  max-height: 25px;
 }
 
 .max-h-\[35px\] {
@@ -3338,11 +3348,6 @@ body {
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-blue-300 {
-  --tw-text-opacity: 1;
-  color: rgb(147 197 253 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -5269,11 +5274,6 @@ body {
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-200:hover {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-300:hover {

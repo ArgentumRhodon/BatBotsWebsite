@@ -13,7 +13,7 @@
   }
 
   .nav-link {
-    @apply text-white visited:text-white hover:underline;
+    @apply text-white visited:text-white hover:underline p-2 hover:bg-[#ffe259] hover:bg-opacity-25;
   }
 
   #mobile-nav li a {
@@ -35,7 +35,7 @@
   }
 
   .current-link {
-    @apply font-bold underline underline-offset-4;
+    @apply bg-gradient-to-b from-[#ffe259] to-[#ffa751] hover:to-[#e38441] hover:from-[#ffcf7b] !text-black;
   }
 
   @keyframes growDown {

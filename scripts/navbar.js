@@ -3,12 +3,8 @@ const header = document.querySelector("header");
 const navbar = `
 <nav>
   <div
-    class="hidden fixed top-0 right-0 left-0 z-30 md:flex justify-between items-center p-4 bg-gray-800"
+    class="hidden fixed top-0 right-0 left-0 z-30 md:flex justify-center items-center p-4 bg-gray-800"
   >
-    <a href="./index.html">
-      <img src="./images/title_white_2x.png" alt="" class="max-h-[25px]" />
-    </a>
-
     <!-- Desktop navbar - Opens at md breakpoint -->
     <ul class="flex gap-4">
       <li>
