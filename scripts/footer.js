@@ -104,17 +104,6 @@ const footerContent = `
       </p>
     </section>
 
-    <section class="w-96 max-w-full">
-      <img
-        src="./images/Matt.png"
-        alt=""
-        class="rounded-lg mx-auto max-w-[200px]"
-      />
-      <h1 class="text-xl my-4">Richmond "Matt" Hulse</h1>
-      <p>
-        Matt is our marketing and business ops coordinator. He's responsible for researching and formatting market data to inform the project' deployment.
-      </p>
-    </section>
   </div>
 
   <p class="mt-6 text-3xl space-x-4">
