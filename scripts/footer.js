@@ -27,6 +27,7 @@ const footerContent = `
     class="btn flex flex-col sm:flex-row items-center gap-4"
   >
     More about Yesteryear Games
+    <i class="fa-solid fa-angle-down fa-xl"></i>
   </button>
 
   <div
